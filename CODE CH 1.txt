@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+class Main {
+    public static void main(String[] args) {
+        Scanner copy = new Scanner(System.in);
+        int mark1, mark2, mark3;
+         
+        mark1 = copy.nextInt();
+        mark2 = copy.nextInt();
+        mark3 = copy.nextInt();
+        
+         
+        if (mark1 >= 35 || mark2 >= 35 || mark3 >= 35) {
+            System.out.println("PASS");
+        } else {
+            System.out.println("FAIL");
+        } 
+    }
+}
+
+ALGORITHM:
+
+STEP 1:START THE PROGRAM.
+STEP 2:CREATE A SCANNER PACKAGE.
+STEP 3:CREATE A CLASS NAMED MAIN.
+STEP 4:CREATE A OBJECT FOR SCANNER.
+STEP 5:USE INTEGER DATA TYPE AND  DECLARE  VARIABLE NAMES.
+STEP 6:USE THE IF ELSE STATEMENT TO FIND THE MARKS ARE GERATERTHAN 35.
+STEP 7: IF IT IS > PRINT "PASS"
+STEP 8: IF IT IS < PRINT "FAIL"
+STEP 9: STOP THE PROGRAM
+
